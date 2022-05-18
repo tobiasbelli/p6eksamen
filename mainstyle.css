@@ -1,4 +1,22 @@
-"mainstyle.css"
+:root{
+  --ff-primary: "arial rounded", arial;
+
+  --fw-reg:  300;
+  --fw-light: 150;
+  --fx-bold: 900;
+
+  --clr--background:  #white;
+  --clr--background-secondary: #;
+  --clr-font:   #;
+  --clr-font-secondary: #;
+  --clr-header: #;
+
+  --fs-h1:   50px;
+  --fs-h2:   40px;
+  --fs-nav:  25px;
+}
+:mainstyle.css
+
 body{
   background-image: url(assets/ikonogbanner/newback.jpg);
   margin: 0%;
