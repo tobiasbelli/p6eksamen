@@ -15,7 +15,7 @@
 
   --fs-h1:   40px;
   --fs-h2:   30px;
-  --fs-p:    18px;
+  --fs-p:    16px;
   --fs-nav:  25px;
 }
 body {
@@ -251,6 +251,7 @@ a{
 
 /* TopVideo */
 #wiservideo {
+  padding-top: 35%;
   position: relative;
   top: 10%;
   left: 50%;
@@ -261,10 +262,8 @@ a{
 }
 
 .green-border {
-  width: 100%;
-  height: auto;
   position: relative;
-
+  width: 100%;
 }
 
 
