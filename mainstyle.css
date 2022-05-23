@@ -1,5 +1,5 @@
 :root{
-  --ff-primary:'arial rounded';
+  --ff-primary: "Arial Rounded MT Bold";
   --ff-secondary: arial;
 
   --fw-reg:  300;
@@ -13,8 +13,8 @@
   --clr-blue: #42B4E6;
   --clr-grey: #E7E6E6;
 
-  --fs-h1:   40px;
-  --fs-h2:   30px;
+  --fs-h1:   25px;
+  --fs-h2:   25px;
   --fs-p:    12px;
   --fs-nav:  25px;
 }
@@ -72,6 +72,7 @@ html{
 
 .nav-ikon{
   width: 200px;
+  cursor: pointer;
 }
 
 /* Mobil */
@@ -282,7 +283,7 @@ a{
 
 .nav-btn {
   background-color: var(--clr-grey);
-  height: 100px;
+  height: 75px;
   width: 300px;
   border-style: none;
   border-radius: 30px;
@@ -297,7 +298,20 @@ a{
   background-color: var(--clr-green);
   text-decoration: underline;
 }
+/* Navigation grå */
 
+.content, .h1 {
+  font-size: var(--fs-h1);
+  font-family: var(--ff-primary);
+  color: var(--clr-font-secondary);
+ text-align: center;
+}
+
+#ytvid {
+  width: 500px;
+  height: auto;
+  justify-content: center;
+}
 
 /* Footer */
 .footer{
