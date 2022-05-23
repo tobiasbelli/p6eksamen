@@ -249,6 +249,8 @@ a{
 }
 /* Navbar*/
 
+
+/* Footer */
 .footer{
   background-color: var(--clr-green);
   width: 100%;
@@ -276,3 +278,4 @@ text-align: left;
   color: var(--clr-font);
   text-align: left;
 }
+/* Footer */
