@@ -15,7 +15,7 @@
 
   --fs-h1:   40px;
   --fs-h2:   30px;
-  --fs-p:    16px;
+  --fs-p:    12px;
   --fs-nav:  25px;
 }
 body {
@@ -272,8 +272,8 @@ a{
   background-color: var(--clr-green);
   width: 100%;
   height: auto;
-  border-top-left-radius: 200px;
-  border-top-right-radius: 200px;
+  border-top-left-radius: 220px;
+  border-top-right-radius: 220px;
 }
 
 .footer-os{
