@@ -270,16 +270,27 @@ a{
 /* Navigation grå */
 .nav-bg {
   background-color: #FCF9F7;
+  width: 100%;
   border-top-left-radius: 500px;
   border-top-right-radius: 500px;
   text-align: center;
-  padding: 50px 0px 50px 0px;
+  padding: 10px 0px 50px 0px;
   justify-content: center;
   display: block;
   margin-top: -45%;
- 
 }
 
+.nav-btn {
+  background-color: var(--clr-grey);
+  height: 100px;
+  width: 300px;
+  border-style: none;
+  border-radius: 30px;
+  color: var(--clr-font);
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-nav);
+  font-weight: var(--fx-bold);
+}
 
 
 /* Footer */
