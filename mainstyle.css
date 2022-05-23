@@ -274,12 +274,16 @@ a{
   height: auto;
   border-top-left-radius: 220px;
   border-top-right-radius: 220px;
+  display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+  padding: 25px 0px 25px 0px;
 }
 
 .footer-os{
 width: 150px;
 height: auto;
-padding: 15px 10px 0px 200px;
 font-family: var(--ff-secondary);
 font-size: var(--fs-p);
 color: var(--clr-font-light);
@@ -289,10 +293,21 @@ text-align: left;
 .footer-txt{
   width: 300px;
   height: auto;
-  padding: 0px 0px 10px 200px;
   font-family: var(--ff-secondary);
   font-size: var(--fs-p);
   color: var(--clr-font);
   text-align: left;
+}
+
+.blue-btn {
+  background-color: var(--clr-blue);
+  width: 100px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  text-align: center;
+  color: var(--clr-font-light);
+  font-family: var(--ff-secondary);
+  cursor: pointer;
 }
 /* Footer */
