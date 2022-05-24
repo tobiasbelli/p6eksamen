@@ -310,7 +310,7 @@ a{
 
 .nav-btn:hover {
   color: var(--clr-green);
-  border-style:groove;
+  border-style: groove;
   border-color: var(--clr-green);
 }
 /* Navigation grå */
