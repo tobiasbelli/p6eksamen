@@ -312,10 +312,12 @@ a{
  text-align: center;
 }
 
-#ytvid {
-  width: 500px;
-  height: auto;
-  justify-content: center;
+.ytvid {
+  width: 700px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+
 }
 
 .content {
