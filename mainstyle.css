@@ -306,10 +306,11 @@ a{
  text-align: center;
 }
 
-#ytvid {
-  width: 500px;
-  height: auto;
-  justify-content: center;
+.ytvid {
+  width: 750px;
+  height: 450px;
+  display: flex;
+  margin: auto;
 }
 
 .content {
