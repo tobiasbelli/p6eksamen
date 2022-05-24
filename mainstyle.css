@@ -293,9 +293,8 @@ a{
   font-weight: var(--fx-bold);
 }
 
-.active, .nav-btn:hover {
-  color: var(--clr-font-light);
-  background-color: var(--clr-green);
+.nav-btn:hover {
+  color: var(--clr-green);
   text-decoration: underline;
 }
 /* Navigation grå */
