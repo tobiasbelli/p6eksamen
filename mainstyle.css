@@ -287,6 +287,15 @@ a{
   margin-top: -45%;
 }
 
+.bg-btn {
+  background-color: var(--clr-grey);
+  width: 1000px;
+  height: 75px;
+  border-radius: 30px;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+}
 .nav-btn {
   background-color: var(--clr-grey);
   height: 75px;
