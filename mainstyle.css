@@ -300,7 +300,7 @@ a{
 }
 /* Navigation grå */
 
-.content, .h1 {
+.overskrift{
   font-size: var(--fs-h1);
   font-family: var(--ff-primary);
   color: var(--clr-font-secondary);
@@ -311,6 +311,28 @@ a{
   width: 500px;
   height: auto;
   justify-content: center;
+}
+
+.content {
+  display: flex;
+	flex-direction: row;
+  justify-content: space-around;
+  align-items: top;
+  padding: 25px 25px 55px 25px;
+}
+.cirkler {
+  height: 225px;
+  width: 225px;
+  border-radius: 250px;
+  background-color: var(--clr-blue);
+  padding: 40px 10px 0px 20px;
+  align-items: center;
+  justify-content: center;
+  color: var(--clr-font-light);
+  text-align: center;
+  font-family: var(--ff-secondary);
+  font-size: var(--fs-nav)
+  
 }
 
 /* Footer */
