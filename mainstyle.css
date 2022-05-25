@@ -65,19 +65,7 @@ html{
   background-color: var(--clr-green);
   text-decoration: underline;
 }
-.wiservideoContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.overlapping {
-  z-index: 3;
-  margin-top: -30px;
-}
 
-.wiservideo {
-  z-index: 2;
-}
 
 .logo{
   width: 200px;
@@ -140,7 +128,11 @@ html{
  }
 }
 /* Header */
+.infografik{
+  display: flex;
+  margin: auto;
 
+}
 /* Navbar */
 /* Desktop */
 .logo{
