@@ -65,19 +65,7 @@ html{
   background-color: var(--clr-green);
   text-decoration: underline;
 }
-.wiservideoContainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.overlapping {
-  z-index: 3;
-  margin-top: -30px;
-}
 
-.wiservideo {
-  z-index: 2;
-}
 
 .logo{
   width: 200px;
@@ -140,9 +128,39 @@ html{
  }
 }
 /* Header */
+.infografik{
+  display: flex;
+  margin: auto;
 
+}
 /* Navbar */
 /* Desktop */
+
+.mainImage {
+    height: 100px;
+    width: 100%;
+    min-width: 100px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+.imageContainer {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+
+}
+.mainImg {
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+
+}
+
 .logo{
   margin-left: -10px;
 }
