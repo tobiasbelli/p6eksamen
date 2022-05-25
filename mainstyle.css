@@ -369,8 +369,8 @@ a{
 }
 
 .cirkler {
-  height: 225px;
-  width: 225px;
+  height: 250px;
+  width: 250px;
   border-radius: 250px;
   background-color: var(--clr-blue);
   padding: 40px 10px 0px 20px;
