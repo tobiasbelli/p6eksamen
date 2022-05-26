@@ -404,6 +404,30 @@ a{
   width: 100%;
 }
 
+#komigang {
+  background-color: var(--clr-grey);
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+  padding: 25px 0px 25px 0px;
+}
+
+#txt-komigang {
+  padding-right: 10px;
+  width: 500px;
+  font-size: var(--fs-h2);
+  font-family: var(--ff-secondary);
+  color: var(--clr-font);
+  font-weight: lighter;
+  text-align: left;
+}
+
+#komigangw {
+  align-items: top;
+  width: 700px;
+  float: right;
+}
+
 /* Slider */
 * {box-sizing:border-box}
 
@@ -412,6 +436,7 @@ a{
   max-width: 100%;
   position: relative;
   margin: auto;
+  padding-top: 5px;
   background-color: rgba(61,205,88,0.3)
 }
 
@@ -472,7 +497,23 @@ a{
   background-color: var(--clr-green)
 }
 /* Slider */
+.image-slider {
+  display: inline-block;
+  height: 500px;
+  width: auto;
+  padding-right: 70px;
+}
 
+.txt-slider{
+  display: inline-block;
+  width: 500px;
+  font-size: var(--fs-h2);
+  font-family: var(--ff-secondary);
+  color: var(--clr-font);
+  font-weight: lighter;
+  text-align: left;
+  justify-content: center;
+}
 
 
 /* Footer */
