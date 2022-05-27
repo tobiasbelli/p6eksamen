@@ -407,14 +407,16 @@ a{
 #komigang {
   background-color: var(--clr-grey);
   width: 100%;
-  justify-content: space-around;
+  height: 650px;
+  justify-content: center;
   align-content: center;
   padding: 25px 0px 25px 0px;
 }
 
 #txt-komigang {
-  padding-right: 10px;
-  width: 500px;
+  padding-left: 20px;
+  float: left;
+  width: 550px;
   font-size: var(--fs-h2);
   font-family: var(--ff-secondary);
   color: var(--clr-font);
@@ -424,9 +426,11 @@ a{
 
 #komigangw {
   align-items: top;
-  width: 700px;
+  width: 600px;
   float: right;
+  align-content: center;
 }
+
 
 /* Slider */
 * {box-sizing:border-box}
