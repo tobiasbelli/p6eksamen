@@ -501,6 +501,29 @@ a{
   padding-right: 100px;
 }
 
+.boks {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  font-size: var(--fs-h2);
+  font-family: var(--ff-secondary);
+  color: var(--clr-font);
+  font-weight: lighter;
+  text-align: left;
+}
+
+.billede {
+  width: 300px;
+}
+
+.boks-border {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 100%;
+  padding: 10px 50px 10px 50px;
+}
 
 /* Slider */
 * {box-sizing:border-box}
