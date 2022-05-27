@@ -503,7 +503,7 @@ a{
 
 .boks {
   display: block;
-  align-items: center;
+  align-content: center;
   justify-content: center;
   width: 300px;
   font-size: var(--fs-h2);
