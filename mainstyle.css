@@ -495,6 +495,7 @@ a{
   width: auto;
   padding-right: 100px;
 }
+
 .produkt2 {
   display: inline-block;
   width: 800px;
@@ -511,6 +512,21 @@ a{
   color: var(--clr-font);
   font-weight: lighter;
   text-align: left;
+}
+
+.boks2 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+}
+
+.boks3 {
+  display: inline-block;
+  width: 100%;
+  padding-right: 100px;
+  padding-bottom: 30px;
+  background-color: rgba(61,205,88,0.3);
 }
 
 .billede {
