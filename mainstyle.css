@@ -133,7 +133,7 @@ html{
   margin: auto;
   margin-top: 7%;
   min-width: 50%;
-  max-width: 100%;
+  max-width: 80%;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -142,10 +142,11 @@ html{
 /* Desktop */
 
 .mainImage {
-    height: 200px;
+    height: 150px;
     width: 100%;
     min-width: 200px;
     margin-top: 50px;
+    margin-bottom: 35px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
