@@ -1,3 +1,8 @@
+body {
+  margin:0;
+  padding: 0;
+  width: 100%;
+}
 :root{
   --ff-primary:'arial rounded';
   --ff-secondary: arial;
@@ -90,7 +95,7 @@ html{
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  min-width: 1149px;
   min-height: 100%;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -276,3 +281,126 @@ text-align: left;
   color: var(--clr-font);
   text-align: left;
 }
+
+.grid1 {grid-area: grid1;}
+.grid2 {grid-area: grid2;}
+.grid3 {grid-area: grid3;}
+.grid4 {grid-area: grid4;}
+.grid5 {grid-area: grid5;}
+.grid6 {grid-area: grid6;}
+.grid7 {grid-area: grid7;}
+.grid8 {grid-area: grid8;}
+.grid9 {grid-area: grid9;}
+
+.grid-container {
+  display: grid;
+  grid-gap: 1%;
+  margin: 1%;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: 
+  'grid1 grid2 grid3'
+  'grid4 grid5 grid6'
+  'grid7 grid8 grid9';
+}
+
+.grid1 {
+  height: auto;
+}
+
+.grid2 {
+  height: auto;
+}
+
+.grid3 {
+  height: auto;
+}
+
+.grid4 {
+  height: auto;
+}
+
+.grid5 {
+  height: auto;
+}
+
+.grid6 {
+  height: auto;
+}
+
+.grid7 {
+  height: auto;
+}
+
+.grid8 {
+  height: auto;
+}
+
+.grid9 {
+  height: auto;
+}
+
+.mySlide {
+  display: none;
+  width: 50%;
+}
+
+.slideshow {
+  margin: 1%;
+  width: 50%;
+}
+
+.slideshow {grid-area: mySlide;}
+.text2 { grid-area: text2;}
+
+.gridcontainer {
+  display: grid;
+  margin: 1%;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 
+  'mySlide text2';
+}
+
+.text1 {
+  text-align: center;
+}
+
+.text2 {
+  text-align: center;
+}
+
+.grid1 :hover {
+  opacity: 0.7;
+}
+
+.grid2 :hover {
+  opacity: 0.7;
+}
+
+.grid3 :hover {
+  opacity: 0.7;
+}
+
+.grid4 :hover {
+  opacity: 0.7;
+}
+
+.grid5 :hover {
+  opacity: 0.7;
+}
+
+.grid6 :hover {
+  opacity: 0.7;
+}
+
+.grid7 :hover {
+  opacity: 0.7;
+}
+
+.grid8 :hover {
+  opacity: 0.7;
+}
+
+.grid9 :hover {
+  opacity: 0.7;
+}
+
